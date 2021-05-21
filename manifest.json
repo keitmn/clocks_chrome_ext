@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2, 
+    "name": "Clock",
+    "version": "0.1.0",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["script.js"],
+            "css": ["style.css"]
+        }
+    ],
+    "permissions": [
+        "storage"
+    ]
+}
